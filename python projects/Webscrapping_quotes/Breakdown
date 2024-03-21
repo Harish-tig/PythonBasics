@@ -1,0 +1,25 @@
+Importing Libraries:
+The script imports the requests library to make HTTP requests and the bs4 (Beautiful Soup) library to parse HTML.
+
+Base URL Setup:
+The base_url variable is set to the URL pattern containing {} as a placeholder for the page number.
+
+Functions for Data Extraction:
+    Three functions are defined:
+        get_name(author): Extracts author names from the page and adds them to a set called name.
+        get_quote(text): Extracts quotes from the page and appends them to the quotes list.
+        get_tag(url): Fetches tags associated with quotes from the page and adds them to a set called tags. 
+                      This function is called initially to gather tags from the first page.
+
+Looping Through Pages:
+A while loop iterates through each page of the website using the base_url pattern and a page number variable (num).
+On each iteration, it sends a request to the page, extracts author names and quotes, and updates the page number for the next iteration.
+The loop breaks when no quotes are found on a page, indicating the end of the collection.
+
+
+Printing Results:
+After the loop, the script prints the collected author names (name), quote texts (quotes), and tags (tags).
+
+Function Calls:
+The get_tag function is called initially to gather tags from the first page.
+Other functions (get_name and get_quote) are called within the loop to extract data from each page
