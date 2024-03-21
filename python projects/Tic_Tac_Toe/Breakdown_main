@@ -1,4 +1,4 @@
-Game Board Display:
+(* Game Board Display:
 The game board is displayed using a simple ASCII representation.
 Each position on the board is numbered from 1 to 9.
 
@@ -19,4 +19,4 @@ If they choose 'N', the program exits.
 
 Main Function:
 The main function initializes the game board, displays it, and starts the game loop. It continues until there's a winner or a tie.
-This breakdown outlines the flow of the Tic-Tac-Toe game and how each component contributes to its functionality.
+This breakdown outlines the flow of the Tic-Tac-Toe game and how each component contributes to its functionality. *)
