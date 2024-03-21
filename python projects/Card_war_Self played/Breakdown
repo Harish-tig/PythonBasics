@@ -20,4 +20,4 @@ We start by creating a deck and two players.
 Then, we deal out the cards between them.
 The game goes on in rounds where players compare their top cards.
 If there's a tie, we enter a "war" situation, where more cards are drawn until someone wins.
-The game keeps going until one player runs out of cards
+The game keeps going until one player runs out of cards.
