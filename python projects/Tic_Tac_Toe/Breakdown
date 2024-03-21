@@ -1,0 +1,22 @@
+Game Board Display:
+The game board is displayed using a simple ASCII representation.
+Each position on the board is numbered from 1 to 9.
+
+Starting the Game:
+Players are prompted to choose either 'X' or 'O' for their symbols. If player 1 chooses 'X', player 2 automatically gets 'O', and vice versa.
+
+Win Checking:
+There's a function to check if a player has won the game. 
+It checks all possible winning combinations on the board.
+
+Player Turn:
+Players take turns making their moves.
+They choose a position on the board where they want to place their symbol ('X' or 'O').
+
+Replay Function:
+After a game ends, players are asked if they want to play again. If they choose 'Y', the game restarts.
+If they choose 'N', the program exits.
+
+Main Function:
+The main function initializes the game board, displays it, and starts the game loop. It continues until there's a winner or a tie.
+This breakdown outlines the flow of the Tic-Tac-Toe game and how each component contributes to its functionality.
