@@ -1,6 +1,8 @@
-CARD GAME. Lets brake down the code 
+
+**CARD GAME. <br>Let's brakedown the code**
+
 <br>
-Class Card --------> 
+Class Card -------->
 a) The Card class is like a single playing card.
 b) It has a suit, rank, and a special value.
 c) When you print a card, it tells you its rank and suit, like "Ace of Hearts".
