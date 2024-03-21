@@ -3,21 +3,7 @@ import requests
 import bs4
 import re
 Url_2 ="https://books.toscrape.com/catalogue/page-{}.html" # basic link {} for looping
-# # print(Url_2.format(num=1))
-# res = requests.get(url=Url_2.format(1))## makes sense why dot format
-# soup = bs4.BeautifulSoup(res.text,"lxml")  # converting giant html text to readable sense
-# Class = soup.select('.product_pod') # brings a argued clss under observation
-# book_1 = Class[0] # mostly in format of list or special format of bs4
-# price = book_1.select('div')[1].select('.price_color') ### bring class under obs
-# print(book_1) # check one
-# print('----------------------------------')
-# cost = re.search('£.....',str(price)) # check two passed guessing or approx 4 dig value
-# print(cost.group())
-# name = book_1.select('div a')[1]['title']
-# # print(name)
-# class_p = book_1.select('.star-rating.Three')
-# # print(class_p)
-### testing hit and try above codes
+
 
 # step 1 bring url and observe loop holes
 # understand your needs and observe html files carefullly
@@ -26,6 +12,7 @@ Url_2 ="https://books.toscrape.com/catalogue/page-{}.html" # basic link {} for l
 # divide problems in to sub problems
 # solve each sub problems by above method
 # extract using .select method and observe loopholes
+# edit it as per rating needs
 
 
 
@@ -45,3 +32,26 @@ for x in range(1, 51): # by observation there are only 50 page in web
 
 for key, value in title_of_twostar.items():
     print(key +":",value, end="\n",)
+
+
+
+
+##ignore
+
+# # print(Url_2.format(num=1))
+# res = requests.get(url=Url_2.format(1))## makes sense why dot format
+# soup = bs4.BeautifulSoup(res.text,"lxml")  # converting giant html text to readable sense
+# Class = soup.select('.product_pod') # brings a argued clss under observation
+# book_1 = Class[0] # mostly in format of list or special format of bs4
+# price = book_1.select('div')[1].select('.price_color') ### bring class under obs
+# print(book_1) # check one
+# print('----------------------------------')
+# cost = re.search('£.....',str(price)) # check two passed guessing or approx 4 dig value
+# print(cost.group())
+# name = book_1.select('div a')[1]['title']
+# # print(name)
+# class_p = book_1.select('.star-rating.Three')
+# # print(class_p)
+### testing hit and try above codes
+    
+#ignore
