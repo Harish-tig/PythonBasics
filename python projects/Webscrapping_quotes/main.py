@@ -35,6 +35,10 @@ while True:
         get_quote(text)
         num += 1
 
+
+
+##for better results and readability use for loop to pritn results.
+
 print("Author Names:",name)
 print("Quote Texts:", quotes)
 get_tag(base_url)
@@ -43,6 +47,7 @@ print("tags",tags)
 
 
 
+#ignroe
 ##set of author
 # name = set()
 #
@@ -72,3 +77,4 @@ print("tags",tags)
 # req = requests.get(base_url)
 # soup = bs4.BeautifulSoup(req.text,"lxml")
 # print(soup.select('.author')[0].text)
+#ignore
