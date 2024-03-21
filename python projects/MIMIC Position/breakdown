@@ -1,0 +1,19 @@
+Game setup:
+The game starts with a list that contains three elements, one of which is a hidden '0' that the player needs to guess the position of.
+
+
+Shuffling the List:
+There's a function to shuffle the list, which mixes up the positions of the elements to hide the '0' in a random spot.
+
+Getting User Input:
+Another function prompts the player to guess where they think the '0' is hidden.
+It keeps asking until they enter a valid choice (0, 1, or 2).
+
+
+Checking User's Guess:
+After the player guesses, a function checks if their guess matches the position of the '0'.
+If it does, they win! Otherwise, they lose.
+
+Game Loop:
+The game runs in a loop, allowing the player to keep playing or decide to stop.
+It keeps track of the player's guesses and outcomes, providing a fun and interactive experience.
