@@ -1,5 +1,5 @@
 # PythonBasics
-Basic Python Projects that I have done while learning Python.
+Basic Python Projects that I have done while learning Python and would be exicted to share with you guys.
 <br>
 This includes 
 <br>
